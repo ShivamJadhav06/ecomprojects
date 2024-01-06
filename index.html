@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dehydrated Goods Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Dehydrated </h1>
+        </div>
+        <ul>
+            <a onclick="home()" id="homes" href="" >HOME</a>
+            <a onclick="product()" id="products" href="#product">PRODUCTS</a>
+            <a onclick="blog()" id="blogs" href="#blog">Blogs</a>
+            <a onclick="review()" id="reviews" href="#review">REVIEW</a>
+            <a onclick="contact()" id="contacts" href="#contact">CONTACT US</a>
+            <button id="login">Log In</button>
+        </ul>
+    </nav>
+    
+    <div id="log">
+        <input id="logName" type="text" placeholder="Enter Email">
+        <input type="password" placeholder="Enter Password"><br>
+        <button id="btn">Log In</button>
+    </div>
+
+    <div class="main" >
+        <div class="text">
+            <h1>Quality Dehydrated Goods</h1>
+            <h3>Discover a New Way to Preserve</h3>
+            <p>Explore our range of dehydrated products to keep your pantry stocked with quality and nutritious options.</p>
+            <button>Explore</button>
+        </div>
+
+        <img src="/images/homebanner4.png" alt="">
+    </div>
+
+    <div class="products" id="product">
+        <div class="head">
+            <h1>Explore <span>Our Products</span></h1>
+        </div>
+
+        <div class="shop">
+            <div class="card">
+                <img src="/images/chilli.png" alt="">
+                <div class="cardText">
+                    <p>Dehydrated Vegetables</p>
+                    <h3>$12</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/kothimbihir.png" alt="">
+                <div class="cardText">
+                    <p>Dehydrated Fruits</p>
+                    <h3>$15</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/gingerpowder.png" alt="">
+                <div class="cardText">
+                    <p>Healthy Snack Packs</p>
+                    <h3>$8</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blogs -->
+
+    <div class="trend" id="blog">
+        <div class="head">
+            <h1>Read <span>Blogs</span></h1>
+        </div>
+        <div class="trending">
+            <div class="trendCard">
+                <img src="/images/onionflex.png" alt="">
+                <div class="trendText">
+                    <h2>The Benefits of Dehydrated Vegetables</h2>
+                    <p>Discover why dehydrated veggies are a great addition to your diet. Learn more about their nutritional value and versatility.</p>
+                    <a href="https://www.nutritionblog.com/" >Read More</a >
+                </div>
+            </div>
+            <div class="trendCard">
+                <img src="/images/kothimbihir.png" alt="">
+                <div class="trendText">
+                    <h2>Quick and Healthy Dehydrated Snack Ideas</h2>
+                    <p>Explore creative and nutritious snack ideas using dehydrated ingredients. Elevate your snacking experience!</p>
+                    <a href="https://www.healthysnacksblog.com/">Read More</a >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- review -->
+    <div class="blog" id="review">
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="read">
+            <div class="readBlog">
+                <img src="customer_review_1.jpg" alt="">
+                <p>Love the quality of the dehydrated fruits! They taste fresh and are perfect for on-the-go snacking.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> 
+            </div>
+            <div class="readBlog">
+                <img src="customer_review_2.jpg" alt="">
+                <p>The dehydrated vegetables exceeded my expectations. They retain their flavor and are a convenient addition to my meals.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> 
+            </div>
+            <div class="readBlog">
+                <img src="customer_review_3.jpg" alt="">
+                <p>The healthy snack packs are a game-changer for my workday. They're tasty, and I feel good about choosing a nutritious option.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> 
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="head">
+            <h1>Contact <span>Us</span></h1>
+        </div>
+        <div class="contactUs">
+            <h3>Connect With Us</h3>
+            <input id="name" type="text" placeholder="Enter Your Name"> <br>
+            <input type="text" placeholder="Enter Mobile Number"> <br>
+            <button onclick="submit()">Submit</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            <h2>About US</h2>
+            <p>Discover a new way to enjoy nutritious and tasty dehydrated goods with our carefully curated selection.</p>
+        </div>
+        <div class="text">
+            <h2>Product</h2>
+            <p>Dehydrated Vegetables</p>
+            <p>Dehydrated Fruits</p>
+            <p>Healthy Snack Packs</p>
+        </div>
+        <div class="text">
+            <h2>Quality</h2>
+            <p>Premium Selection</p>
+            <p>Customer Satisfaction</p>
+            <p>Nutrient-Rich</p>
+            <p>Exceptional Taste</p>
+        </div>
+        <div class="text">
+            <h2>Address</h2>
+            <p>123 Dehydrate Lane</p>
+            <p>NutriCity</p>
+            <p>Healthy Valley</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
